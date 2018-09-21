@@ -1,0 +1,245 @@
+body {
+	background: url("images/fond.png");
+	font-size: 1em;
+}
+
+#conteneur{
+	margin: 0 auto;
+	width: 1000px;
+	height: min-height: 810px;
+	background: #fff;
+	box-shadow: 1px 1px 6px;
+}
+
+/* ***************** STRUCTURE ****************   */
+
+header{
+	height: 81px;
+	display: flex;
+	justify-content:space-between;
+}
+
+nav{
+	min-height: 38px;
+	background: #3FC9FA;
+}
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+}
+
+ul{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	text-align:center;
+	list-style-type: none;
+	justify-content: space-around;
+	line-height: 2.3;
+}
+ul a {
+	display: block;
+    width: 160px;
+	height: 40px;
+	
+}
+
+ul a:hover{
+background: #f583e3;
+}
+
+
+
+
+main{
+	height:100%;
+	
+}
+
+
+footer{
+	font-size: 0.8em;
+	min-height: 36px;
+	line-height: 36px;
+	background: #3FC9FA;
+	color: #fff;
+	text-align: center;	
+}
+
+
+h1{
+	margin: 0;
+	font-size: 2.5em;
+}
+h2{
+	margin-top: 0 0 0 5px;
+	font-size: 1.3em;
+	color: #3FC9FA;
+	
+}
+h3{
+	text-align: center;
+	background:#D9D9D9;
+	margin: 0;
+	padding: 3px;
+}
+
+/*  ****************** SOUS ZONES   *****************/
+
+/* *******HEADER ********** */
+
+.titre span.vente{
+	color: #F9BBEF;
+}
+.aide span {
+	color: #3FC9FA;
+	
+		
+}
+
+.bes-aide{
+	font-size: 1.7em;
+	padding-left: 9px;
+}
+.aide p{
+	color: #CBCBCB;
+	margin:0;
+	font-size: 0.8em;
+	position: relative;
+	right: -2px;
+	bottom: 23px;
+}
+.num-tel{
+	position: relative;
+	font-size: 1.2em;
+	font-weight: bold;
+	bottom: 27px;
+	left: 46px;
+}
+
+
+.panier{
+	width: 250px;
+	text-align: center;
+	background: #3FC9FA;
+	color: white;
+	min-height: 71px;
+	margin-bottom: 20px;
+}
+
+.panier p {
+	margin: 0;
+}
+
+
+.compte{
+	display: block;
+	border-bottom: 1px solid white;
+}
+
+
+
+/***** Main ********* */
+.enrique-img{
+	 
+}
+.info{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 0 33px;
+	min-height: 154	px;
+}
+
+.paiement{
+	flex: 1;
+	margin:0 10px;
+}
+.presentation{
+	flex: 2;
+	border-left: 1px solid black;
+	border-right:1px solid black;
+	margin:0 10px;
+}
+.presentation p{
+	margin: 0 20px;
+}
+.services{
+	flex: 1;
+	margin:0 10px;
+}
+.pub{
+	display: flex;
+	min-height: 211px;
+	justify-content:space-around;
+}
+.pub img{
+	float: left;
+}
+.pub p{
+	margin: 0 0 0 98px;
+}
+.robe{
+	margin:0 15px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 6px;
+	border: 1px solid #D9D9D9;
+	height: 156px;
+	width: 308px;
+}
+
+.robe p{
+	margin: 5px 0 0 68px;
+}
+.robe img{
+	margin-top: 5px;
+	margin-left: 6px;
+}
+.talons{
+	border-radius: 8px;
+	box-shadow: 1px 1px 6px;
+	border: 1px solid #D9D9D9;
+	width: 302px;
+	margin:0 15px;
+	height: 156px;
+}
+.talons p{
+	margin: 5px 0 0 92px;
+}
+.talons img{
+	margin-top: 17px;
+	margin-left: 6px;
+}
+.chemise{
+	border-radius: 8px;
+	box-shadow: 1px 1px 6px;
+	margin:0 10px 0 15px;
+	border: 1px solid #D9D9D9;
+	height: 156px;
+	width: 315px;
+}
+.chemise p{
+	margin-top: 7px;
+	
+}
+.chemise img{
+	margin-top: 15px;
+	margin-left: 6px;
+}
+
+.button-voir{
+	text-align: right;	
+	position: relative;
+    bottom: 5px;
+	color: #3FC9FA;
+	text-decoration: underline;
+}
+
+/***************style et contenu***************  */
+
+
+.clear{
+	clear: both;
+}
+
+
